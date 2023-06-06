@@ -1,0 +1,47 @@
+{
+  "name": "msf-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.10.5",
+    "@emotion/css": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@hookform/resolvers": "2.8.1",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.4",
+    "@mui/styles": "^5.11.2",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.7.2",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@types/node": "18.16.2",
+    "@types/tailwindcss": "^3.1.0",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-twin": "^1.1.0",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.2.4",
+    "twin.macro": "^3.1.0",
+    "typescript": "4.9.4"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  }
+}
